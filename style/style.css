@@ -55,6 +55,19 @@ body{
     background-repeat: no-repeat;
 }
 
+.magician-photo{
+    background-image: url(../img/item2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.options-photo{
+    background-image: url(../img/item3.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
 .column-small{
     width: 30%;
     padding-right: 100px;
