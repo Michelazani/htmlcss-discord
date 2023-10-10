@@ -17,7 +17,7 @@ body{
 
 .flex-j-center{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .flex-j-between{
@@ -45,14 +45,27 @@ body{
     height: 400px;
 }
 
-.column-big{
-    background-color: #1e8ffe;
-    width: 60%;
+.column-big {
+    width: 70%;
+}
+
+.frog-photo{
+    background-image: url(../img/item1.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 
 .column-small{
-    background-color: #febfca;
-    width: 40%;
+    width: 30%;
+    padding-right: 100px;
+}
+
+.size-text{
+    text-align: left;
+    padding-top: 20%;
+    font-size: 30px;
+
+
 }
 
 .column-single{
@@ -184,6 +197,11 @@ button{
     font-size: medium;
     padding: 1.5rem;
     line-height: 1.5rem;
+}
+
+.no-padding{
+    padding: 0%;
+    padding-top: 5%;
 }
 
 footer{
