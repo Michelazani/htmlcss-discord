@@ -89,7 +89,7 @@ body{
     background-color: rgb(142, 161, 225);
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .smaller-lillac{
@@ -115,19 +115,16 @@ body{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
 }
 
 .column-30{
-    background-color: #ef7f7f;
     height: 500px;
     width: 30%;
 }
 
 .column-quarters{
-    border: 2px dashed white;
     width: calc(100% / 4);
 }
 
@@ -146,7 +143,9 @@ header{
 }
 
 section.navigation{
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background-color: rgb(49, 97, 224);
 }
 
 
@@ -207,7 +206,7 @@ section#jumbo{
 }
 
 .accedi{
-    border-radius: 40%;
+    border-radius: 20px;
     padding: 0.25rem;
     background-color: white;
     width: 70px;
@@ -230,9 +229,9 @@ div.jumbotron{
 
 
 button{
-    width: 130px;
+    width: 150px;
     height: 37px;
-    border-radius: 40%;
+    border-radius: 20px;
     padding: 0.25rem;
     background-color: white;
 }
@@ -269,10 +268,40 @@ div.footer-divider{
 }
 
 section.links{
-    padding-top: .5rem;
+    padding-top: 2.5rem;
 }
 
 div.button{
     height: 2rem;
     padding: .25rem .5rem;
+}
+
+.italian-flag{
+    background-image: url(../img/ita.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    float: left;
+}
+
+.footer-ul{
+    list-style: none;
+}
+
+.lillac-text{
+    color: rgb(114, 137, 219);
+}
+
+.footer-ul>li{
+    color: white;
+}
+
+footer{
+    line-height: 2rem;
+}
+
+i{
+    padding: 0.5rem;
 }
