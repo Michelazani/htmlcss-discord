@@ -67,6 +67,20 @@ body{
     background-repeat: no-repeat;
 }
 
+.background-photo{
+    background-image: url(../img/item4-big.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+.stars-photo{
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
 
 .column-small{
     width: 30%;
@@ -82,7 +96,6 @@ body{
 }
 
 .column-single{
-    background-color: #228a22;
     width: 100%;
     height: 700px;
 }
@@ -127,6 +140,12 @@ section.navigation{
 header section.navigation > div{
     /* height: 40px; */
 
+}
+
+main section.bg-grey div.column > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header section.navigation div.brand,
@@ -191,6 +210,12 @@ div.jumbotron{
     text-align: center;
 }
 
+.black-centered-text{
+    text-align: center;
+    padding: 12px 110px;
+}
+
+
 button{
     width: 130px;
     height: 37px;
@@ -205,6 +230,8 @@ button{
     width: 210px;
 
 }
+
+
 
 .font-size-medium{
     font-size: medium;
