@@ -256,7 +256,8 @@ button{
     padding-top: 5%;
 }
 
-footer{
+footer
+{
     background-color: #23272a;
 }
 
@@ -274,7 +275,10 @@ section.links{
 div.button{
     height: 2rem;
     padding: .25rem .5rem;
+
 }
+
+
 
 .italian-flag{
     background-image: url(../img/ita.png);
@@ -302,6 +306,8 @@ footer{
     line-height: 2rem;
 }
 
-i{
+i, 
+.padding-footer
+{
     padding: 0.5rem;
 }
